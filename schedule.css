@@ -1,0 +1,44 @@
+.navContainer {
+    height: 50px;
+    background-color: #0c0c1d;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    gap: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.filmi, .orari {
+    font-size: 20px;
+}
+table {
+    width: 80%;
+    margin-left: 10%;
+    background-color: #1b1b32;
+    height: 350px;
+    margin-top: 10%;
+    border: 1px solid white;
+    color: white;
+}
+td {
+    font-size: 16px;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+background-image: url(cinema.png);
+margin: 0;
+}
+@media (max-width: 767px){
+    table {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 50%;
+    }
+}
